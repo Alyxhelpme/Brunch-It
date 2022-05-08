@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: cb740ca07b4a53240a50d5321bac1754
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_0"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 624
+        width: 47
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d22c03fa9696643bbfdd1352144601
+      internalID: 1492274953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_1"
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 625
+        width: 124
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10c5585b6d5ba4085e79e6b6263f8a
+      internalID: 1980729984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_2"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 627
+        width: 147
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a2ce58f808f41419ea5dd83d5cfa2f
+      internalID: -1020986898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_3"
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 631
+        width: 161
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322215bf9fb87d14ca1bc32b9e7e0b01
+      internalID: 2043655275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_4"
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 628
+        width: 146
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5280936006fba448fb8854fec012e4
+      internalID: 162211933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_5"
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 627
+        width: 119
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f795884c0ba1943b5f1c50f5efa9eb
+      internalID: 378795137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_6"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 318
+        width: 88
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8714c866daa73a24d872df514b3d5343
+      internalID: -719427400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_7"
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 320
+        width: 135
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d48caa4dbbf774689f9c86179b45c3
+      internalID: -1175365188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_8"
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 325
+        width: 164
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e1b1c32c972d3479ce8583d2f085cc
+      internalID: -674719468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_9"
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 322
+        width: 135
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae812321bfa36cf4199633de7e1ace2c
+      internalID: -809309021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_10"
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 321
+        width: 94
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee01609c07915140b419a4b709b99f1
+      internalID: 1121470063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_11"
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 321
+        width: 48
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241a15a5e421f34a969303d33c43334
+      internalID: 1730101382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_12"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 144
+        width: 178
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aa6faea76b0734685fdc924302fc8f
+      internalID: 873372873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_13"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 146
+        width: 183
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3e0bf32dbc724482950dcd20bab65
+      internalID: -1052793282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_14"
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 19
+        width: 161
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df24743673f74841962f131631d22eb
+      internalID: -1255844621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_15"
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 19
+        width: 161
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e967e65ebaf694da62695eb5733c04
+      internalID: 1092560012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_16"
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 20
+        width: 161
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3efce4dfa3353244b6767692824bfff
+      internalID: -1237111253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_17"
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f929598703220499afcfb2c457b549
+      internalID: 970028363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_18"
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e525e01f1229042ad92392f5fdd573
+      internalID: -663440115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_19"
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 54
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e241569ff157d844acc2dc2f3c6cca6
+      internalID: -1320535974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_20"
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c558f3690205ca4a8f9f9491f12c4c2
+      internalID: -1740855320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_21"
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862f75156cafb1b408cc1de794040781
+      internalID: -425047177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_22"
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b342cf467d081e04686a6520910a2007
+      internalID: 1575273135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_23"
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 54
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859ee91e1dabbff43b44282fdd9b90ec
+      internalID: -600507469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_24"
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf26b8a413cb3549b569b41cbc059fc
+      internalID: 1413346743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_25"
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 54
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ff66accd05e7846af8d2ba03e4384d
+      internalID: -380511244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_26"
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 25
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c3b6a642dd1e8428831938d48607cf
+      internalID: -672845349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_27"
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 25
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6e5b7c4bae1514394c0e236e684da5
+      internalID: -1700680838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_28"
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 25
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529db0e278bf622478410daff987e039
+      internalID: 1827800074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_29"
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 25
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e83ece5fedafbd43839d6f62ba116bc
+      internalID: 1957194563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_30"
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 25
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa60e651cfe6b284095dc0e2452aa112
+      internalID: 1182245898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_31"
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 25
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a870cb68cd1f548bd92b5f01c6e567
+      internalID: -2001138774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Se\xF1orcito_waffle_turnaround_singrid-01_32"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7de4d713525b1418a911c217f2e210
+      internalID: -1306381661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Se\xF1orcito_waffle_turnaround_singrid-01_32": -1306381661
+      "Se\xF1orcito_waffle_turnaround_singrid-01_2": -1020986898
+      "Se\xF1orcito_waffle_turnaround_singrid-01_21": -425047177
+      "Se\xF1orcito_waffle_turnaround_singrid-01_4": 162211933
+      "Se\xF1orcito_waffle_turnaround_singrid-01_13": -1052793282
+      "Se\xF1orcito_waffle_turnaround_singrid-01_28": 1827800074
+      "Se\xF1orcito_waffle_turnaround_singrid-01_18": -663440115
+      "Se\xF1orcito_waffle_turnaround_singrid-01_23": -600507469
+      "Se\xF1orcito_waffle_turnaround_singrid-01_30": 1182245898
+      "Se\xF1orcito_waffle_turnaround_singrid-01_22": 1575273135
+      "Se\xF1orcito_waffle_turnaround_singrid-01_26": -672845349
+      "Se\xF1orcito_waffle_turnaround_singrid-01_8": -674719468
+      "Se\xF1orcito_waffle_turnaround_singrid-01_31": -2001138774
+      "Se\xF1orcito_waffle_turnaround_singrid-01_9": -809309021
+      "Se\xF1orcito_waffle_turnaround_singrid-01_27": -1700680838
+      "Se\xF1orcito_waffle_turnaround_singrid-01_5": 378795137
+      "Se\xF1orcito_waffle_turnaround_singrid-01_14": -1255844621
+      "Se\xF1orcito_waffle_turnaround_singrid-01_6": -719427400
+      "Se\xF1orcito_waffle_turnaround_singrid-01_11": 1730101382
+      "Se\xF1orcito_waffle_turnaround_singrid-01_16": -1237111253
+      "Se\xF1orcito_waffle_turnaround_singrid-01_17": 970028363
+      "Se\xF1orcito_waffle_turnaround_singrid-01_29": 1957194563
+      "Se\xF1orcito_waffle_turnaround_singrid-01_0": 1492274953
+      "Se\xF1orcito_waffle_turnaround_singrid-01_1": 1980729984
+      "Se\xF1orcito_waffle_turnaround_singrid-01_15": 1092560012
+      "Se\xF1orcito_waffle_turnaround_singrid-01_24": 1413346743
+      "Se\xF1orcito_waffle_turnaround_singrid-01_10": 1121470063
+      "Se\xF1orcito_waffle_turnaround_singrid-01_12": 873372873
+      "Se\xF1orcito_waffle_turnaround_singrid-01_25": -380511244
+      "Se\xF1orcito_waffle_turnaround_singrid-01_19": -1320535974
+      "Se\xF1orcito_waffle_turnaround_singrid-01_3": 2043655275
+      "Se\xF1orcito_waffle_turnaround_singrid-01_20": -1740855320
+      "Se\xF1orcito_waffle_turnaround_singrid-01_7": -1175365188
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
