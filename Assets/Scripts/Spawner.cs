@@ -36,7 +36,7 @@ public class Spawner : MonoBehaviour {
             gameObjSpawn = new ArrayList();
             for (int i = 0; i< cacheObj; i++){
                 rdmElements = Random.Range(0, len);
-                temp = Instantiate(obs[rdmElements], transform. position);
+                temp = Instantiate(obs[rdmElements], transform.position,Quaternion.identity);
                 temp.SetActive(false);
                 gameObjSpawn.Add(temp);
             }
@@ -44,13 +44,13 @@ public class Spawner : MonoBehaviour {
 	}
 
 	void Update () {
-		if (!GameManager._gm._paused) {
+		//if (!GameManager._gm._paused) {
             if (waitingTime <= 0 && (maxNum == 0 || maxNum > itemsSpawned)) {
                 lanza();
                 if (spawnIncrement >= 0 && timeObs > minSpawn) {
                     timeObs -= spawnIncrement;
                 }
-				waitingTime= timeObs;
+				waitingTime = timeObs;
                 if (timeIncrement > 0f) {
                     waitingTime += Random.Range(0, timeIncrement);
                 }
@@ -62,7 +62,7 @@ public class Spawner : MonoBehaviour {
 			else {
 				waitingTime -= Time.deltaTime;
 			}
-		}
+		//}
 	}
     
 	void lanza(){
