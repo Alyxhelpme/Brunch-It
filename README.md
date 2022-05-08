@@ -1,2 +1,2 @@
 # Brunch-It
- 
+En este proyecto se plantea hacer un juego con pixelart. Basándonos en nuestros conceptos de unidad llegamos a una serie de conceptos asociados a esta: amistad, lealtad, unión, pertenencia, comodidad, descanso, un buen equipo. Así fue como nació la idea de un desayuno perfecto (en la ambigüedad de lo que perfecto signifique)  y de cómo una lechita emprenderá su camino para rescatar a sus amigos con el poder de la amistad.
