@@ -14,6 +14,7 @@ namespace Alyx.BrunchIt
 
         private Animator animator;
 
+
         private void Start()
         {
             animator = GetComponent<Animator>();
@@ -25,36 +26,80 @@ namespace Alyx.BrunchIt
             Vector2 dir = Vector2.zero; //Making an empty vector for the character's movement
             if (Input.GetKey(KeyCode.A)) //If moved to the left
             {
-                dir.x = -1; //It moves on the caartesian plane -1 in x axis
-                animator.SetInteger("Direction", 3); //And we change the rotation on the direction of the character's animation
+                if (Input.GetKey(KeyCode.W)){
+                    dir.y = 1;
+                    dir.x = -1;
+                    animator.SetInteger("Direction", 4);
+                }else if (Input.GetKey(KeyCode.S)){
+                    dir.y = -1;
+                    dir.x = -1;
+                    animator.SetInteger("Direction", 6);
+                }
+                else{
+                    dir.x = -1; //It moves on the caartesian plane -1 in x axis
+                    animator.SetInteger("Direction", 3); //And we change the rotation on the direction of the character's animation
+                }   
+
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                dir.x = 1;
-                animator.SetInteger("Direction", 2);
+                if (Input.GetKey(KeyCode.W)){
+                    dir.y = 1;
+                    dir.x = 1;
+                    animator.SetInteger("Direction", 5);
+                }else if (Input.GetKey(KeyCode.S)){
+                    dir.y = -1;
+                    dir.x = 1;
+                    animator.SetInteger("Direction", 7);
+                }else{
+                    dir.x = 1;
+                    animator.SetInteger("Direction", 2);  
+                }
+
             }
 
             if (Input.GetKey(KeyCode.W))
             {
-                dir.y = 1;
-                animator.SetInteger("Direction", 1);
+                if (Input.GetKey(KeyCode.A)){
+                    dir.x = -1;
+                    dir.y = 1;
+                    animator.SetInteger("Direction", 4);
+                }else if (Input.GetKey(KeyCode.D)){
+                    dir.x = 1;
+                    dir.y = 1;
+                    animator.SetInteger("Direction", 5);
+                }else{
+                    dir.y = 1;
+                    animator.SetInteger("Direction", 1);
+                }
+
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                dir.y = -1;
-                animator.SetInteger("Direction", 0);
-            }
-            else if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W))
-            {
-                dir.x = -1;
-                dir.y = -1;
-                animator.SetInteger("Direction",0);
+                if (Input.GetKey(KeyCode.A)){
+                    dir.x = -1;
+                    dir.y = -1;
+                    animator.SetInteger("Direction", 6);
+                }else if (Input.GetKey(KeyCode.D)){
+                    dir.x = 1;
+                    dir.y = -1;
+                    animator.SetInteger("Direction", 7);
+                }else{
+                    dir.y = -1;
+                    animator.SetInteger("Direction", 0);
+                }
             }
 
             dir.Normalize();
             animator.SetBool("IsMoving", dir.magnitude > 0);
+            //Code to use when entering slippery surfaces
+            /*Rigidbody2D rb =*/ GetComponent<Rigidbody2D>().velocity = speed * dir;
+            // Vector2 targetSpeed = speed*dir;
+            // Vector2 refSpeed = Vector2.zero;
+            // float smoothVal = .1f; //Higher = 'smoother'
 
-            GetComponent<Rigidbody2D>().velocity = speed * dir;
+            // rb.velocity = Vector2.SmoothDamp(rb.velocity, targetSpeed, ref refSpeed, smoothVal);
+
         }
     }
 }

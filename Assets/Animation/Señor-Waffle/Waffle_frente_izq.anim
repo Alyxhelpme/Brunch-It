@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Waffle_reves_izq
+  m_Name: Waffle_frente_izq
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1175365188, guid: cb740ca07b4a53240a50d5321bac1754, type: 3}
+      value: {fileID: -1020986898, guid: cb740ca07b4a53240a50d5321bac1754, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -40,7 +40,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1175365188, guid: cb740ca07b4a53240a50d5321bac1754, type: 3}
+    - {fileID: -1020986898, guid: cb740ca07b4a53240a50d5321bac1754, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
