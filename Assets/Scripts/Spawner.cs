@@ -28,7 +28,7 @@ public class Spawner : MonoBehaviour {
 
 	private void Awake() {
         //Calculamos el tiempo de lanzamiento. 
-		_timeWaitNeime + Random.Range(0, timeIncrement); 
+		waitingTime = waitingTime + Random.Range(0, timeIncrement); 
         //Calculamos longitud del array de items que podemos lanzar
         len = obs.Length;
         if (cacheObj > 0){
@@ -50,7 +50,7 @@ public class Spawner : MonoBehaviour {
                 if (spawnIncrement >= 0 && timeObs > minSpawn) {
                     timeObs -= spawnIncrement;
                 }
-				_timeWaitNeime= timeObs;
+				waitingTime= timeObs;
                 if (timeIncrement > 0f) {
                     waitingTime += Random.Range(0, timeIncrement);
                 }
