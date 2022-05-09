@@ -12,8 +12,8 @@ namespace Alyx.BrunchIt{
             
         }
 
-        private void OnTriggerCollider(Collider2D collider){
-            
+        private void OnTriggerEnter2D(Collider2D collider){
+            Debug.Log("Entered collider");
         }
 
     }
