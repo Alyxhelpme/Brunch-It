@@ -35,6 +35,8 @@ public class Spawner : MonoBehaviour {
         instance.GetComponent<Rigidbody>().AddForce(new Vector3(0,0,1),ForceMode.Impulse); 
     }
 
-    void borrar() {}
+    void borrar() {
+        
+    }
 }
     
