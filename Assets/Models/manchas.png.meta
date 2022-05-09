@@ -107,8 +107,8 @@ TextureImporter:
       name: manchas_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 358
+        x: 91
+        y: 362
         width: 485
         height: 398
       alignment: 0
@@ -128,10 +128,10 @@ TextureImporter:
       name: manchas_1
       rect:
         serializedVersion: 2
-        x: 675
-        y: 283
-        width: 534
-        height: 517
+        x: 663
+        y: 273
+        width: 546
+        height: 527
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -14,6 +14,7 @@ namespace Alyx.BrunchIt
 
         private Animator animator;
         private Rigidbody2D rb;
+        private Vector2 dir;
 
 
         private void Start()
@@ -26,7 +27,7 @@ namespace Alyx.BrunchIt
 
         private void Update()
         {
-            Vector2 dir = Vector2.zero; //Making an empty vector for the character's movement
+            dir = Vector2.zero; //Making an empty vector for the character's movement
             if (Input.GetKey(KeyCode.Space)){
                 rb.AddForce(new Vector2(0,2), ForceMode2D.Impulse);
             }
@@ -100,12 +101,18 @@ namespace Alyx.BrunchIt
             animator.SetBool("IsMoving", dir.magnitude > 0);
             //Code to use when entering slippery surfaces
             rb.velocity = speed * dir;
-            // Vector2 targetSpeed = speed*dir;
-            // Vector2 refSpeed = Vector2.zero;
-            // float smoothVal = .1f; //Higher = 'smoother'
 
-            // rb.velocity = Vector2.SmoothDamp(rb.velocity, targetSpeed, ref refSpeed, smoothVal);
 
         }
+        void OnTriggerStay2D(Collider2D other){
+            if (other.gameObject.tag=="mancha_1"){
+                Vector2 targetSpeed = speed*dir;
+                Vector2 refSpeed = Vector2.zero;
+                float smoothVal = .3f; //Higher = 'smoother'
+
+                rb.velocity = Vector2.SmoothDamp(rb.velocity, targetSpeed, ref refSpeed, smoothVal);
+            }
+        }
+
     }
 }
