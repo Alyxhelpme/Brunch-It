@@ -32,9 +32,6 @@ namespace Alyx.BrunchIt
         private void Update()
         {
             dir = Vector2.zero; //Making an empty vector for the character's movement
-            if (Input.GetKey(KeyCode.Space)){
-                rb.AddForce(new Vector2(0,2), ForceMode2D.Impulse);
-            }
             if (Input.GetKey(KeyCode.A)) //If moved to the left
             {
                 if (Input.GetKey(KeyCode.W)){
@@ -106,7 +103,7 @@ namespace Alyx.BrunchIt
 
             if(inTrigger){
                 //Code to use when entering slippery surfaces
-                Vector2 targetSpeed = (speed+10)*dir;
+                Vector2 targetSpeed = (speed+80)*dir;
                 Vector2 refSpeed = Vector2.zero;
                 float smoothVal = .3f; //Higher = 'smoother'
 
