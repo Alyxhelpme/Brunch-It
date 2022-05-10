@@ -1,33 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace Alyx.BrunchIt{
+    [RequireComponent(typeof(NavMeshAgent))]
     public class AutoCharacterMovement : MonoBehaviour
     {
         public float speed;
-
         private Animator animator;
-        [SerializeField] GameObject Lechita;
+        private NavMeshAgent agent;
+        [SerializeField] Transform Lechita;
 
         private void Start()
         {
             animator = GetComponent<Animator>();
+            agent = GetComponent<NavMeshAgent>();
+            agent.updateRotation = false;
+            agent.updateUpAxis = false;
         }
 
         
         // Update is called once per frame
         void Update()
         {
-            Vector2 distance = new Vector2 (Lechita.transform.position.x + 10, Lechita.transform.position.y);
-            transform.position = Vector2.MoveTowards(transform.position,distance,speed*Time.deltaTime);
-            // if (transform.position.x <= -1){
-            //     if(transform.position.y >= 1){
-            //         animator.SetInteger("Direction", 4);
-            //     }else if (transform.position.y <= -1){
-            //         animator.SetInteger("Direction", 6);
-            //     }
-            // }
+            float dist = Vector2.Distance(Lechita.transform.position,transform.position);
+            if (dist <= 10){
+                agent.SetDestination(Lechita.position);
+            }
+            if (transform.position.x <= -1){
+                if(transform.position.y >= 1){
+                    animator.SetInteger("Direction", 4);
+                }else if (transform.position.y <= -1){
+                    animator.SetInteger("Direction", 6);
+                }
+            }
         }
     }
 }

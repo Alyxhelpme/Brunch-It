@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Alyx.BrunchIt
 {
@@ -15,6 +16,9 @@ namespace Alyx.BrunchIt
         private Animator animator;
         private Rigidbody2D rb;
         private Vector2 dir;
+
+        private bool inTrigger;
+        [SerializeField] Image lives;
 
 
         private void Start()
@@ -99,18 +103,28 @@ namespace Alyx.BrunchIt
 
             dir.Normalize();
             animator.SetBool("IsMoving", dir.magnitude > 0);
-            //Code to use when entering slippery surfaces
-            rb.velocity = speed * dir;
 
-
-        }
-        void OnTriggerStay2D(Collider2D other){
-            if (other.gameObject.tag=="mancha_1"){
-                Vector2 targetSpeed = speed*dir;
+            if(inTrigger){
+                //Code to use when entering slippery surfaces
+                Vector2 targetSpeed = (speed+10)*dir;
                 Vector2 refSpeed = Vector2.zero;
                 float smoothVal = .3f; //Higher = 'smoother'
 
                 rb.velocity = Vector2.SmoothDamp(rb.velocity, targetSpeed, ref refSpeed, smoothVal);
+            }else{
+                rb.velocity = speed * dir;
+            }
+
+        }
+        void OnTriggerStay2D(Collider2D other){
+            if (other.gameObject.tag=="mancha_1"){
+                Debug.Log("Esta en la mancha");
+                inTrigger=true;
+            }
+        }
+        void OnTriggerExit2D(Collider2D other){
+            if (other.gameObject.tag=="mancha_1"){
+                inTrigger=false;
             }
         }
 
