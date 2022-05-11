@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 namespace Alyx.BrunchIt{
     public class RunButton : MonoBehaviour
     {
+        public int escena;
         public void onClick(){
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(escena);
         }
     }
 
