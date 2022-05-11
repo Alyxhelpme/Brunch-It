@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - mancha_1
+  - Lives
+  - Cocholata
   layers:
   - Default
   - TransparentFX

@@ -16,15 +16,18 @@ namespace Alyx.BrunchIt
         private Animator animator;
         private Rigidbody2D rb;
         private Vector2 dir;
-
         private bool inTrigger;
-        [SerializeField] Image lives;
+        public Image[] lives;
+        public Sprite emptyHeart;
+        public Sprite recoverHeart;
+
 
 
         private void Start()
         {
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
+
 
         }
 
@@ -113,9 +116,29 @@ namespace Alyx.BrunchIt
             }
 
         }
+        void OnTriggerEnter2D(Collider2D other){
+            if (other.gameObject.tag=="mancha_1"){
+                for(int i=0;i<lives.Length;i++){
+                    if (lives[i].sprite!=emptyHeart){
+                        lives[i].sprite=emptyHeart;
+                        break;
+                    }
+                }
+            }else if (other.gameObject.tag=="Cocholata"){
+                //No se escribir corcholata y ya lo deje asi en el Unity que hueva
+                Debug.Log("Touched Cocholata");
+                for(int i=0;i<lives.Length;i++){
+                    if (lives[i].sprite==emptyHeart){
+                        lives[i].sprite=recoverHeart;
+                        Destroy(other.gameObject);  
+                        break;
+                    }
+                }
+            }
+
+        }
         void OnTriggerStay2D(Collider2D other){
             if (other.gameObject.tag=="mancha_1"){
-                Debug.Log("Esta en la mancha");
                 inTrigger=true;
             }
         }
