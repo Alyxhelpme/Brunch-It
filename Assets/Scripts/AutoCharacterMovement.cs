@@ -12,6 +12,8 @@ namespace Alyx.BrunchIt{
         private NavMeshAgent agent;
         [SerializeField] Transform Lechita;
         private Vector2 oldPosition;
+        private bool WaffleIn;
+        private bool TocinettoIn;
 
         private void Start()
         {
@@ -20,6 +22,8 @@ namespace Alyx.BrunchIt{
             agent.updateRotation = false;
             agent.updateUpAxis = false;
             oldPosition = transform.position;
+            WaffleIn = false;
+            TocinettoIn = false;
         }
 
         
@@ -71,6 +75,30 @@ namespace Alyx.BrunchIt{
             animator.SetBool("IsMoving", transform.position.magnitude > 0);
             oldPosition = transform.position;
             
+        }
+        void OnTriggerStay2D(Collider2D other){
+            if (other.gameObject.tag == "Finish"){
+                if (transform.tag == "Waffle"){
+                    WaffleIn = true;                    
+                }else if(transform.tag == "Tocinetto"){
+                    TocinettoIn = true;
+                }
+            }
+        }
+        void OnTriggerExit2D(Collider2D other){
+            if (other.gameObject.tag == "Finish"){
+                if (transform.tag == "Waffle"){
+                    WaffleIn = false;                    
+                }else if(transform.tag == "Tocinetto"){
+                    TocinettoIn = false;
+                }
+            }
+        }
+        public bool WaffleValue(){
+            return WaffleIn;
+        }
+        public bool TocinettoValue(){
+            return TocinettoIn;
         }
     }
 }

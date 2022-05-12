@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace Alyx.BrunchIt
 {
@@ -20,6 +21,7 @@ namespace Alyx.BrunchIt
         public Image[] lives;
         public Sprite emptyHeart;
         public Sprite recoverHeart;
+        private bool alive;
 
 
 
@@ -27,6 +29,7 @@ namespace Alyx.BrunchIt
         {
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
+            alive = true;
 
 
         }
@@ -34,6 +37,10 @@ namespace Alyx.BrunchIt
 
         private void Update()
         {
+            checkIfAlive();
+            if (!alive){
+                StartCoroutine(waitTimeForGameOver());
+            }
             dir = Vector2.zero; //Making an empty vector for the character's movement
             if (Input.GetKey(KeyCode.A)) //If moved to the left
             {
@@ -117,6 +124,7 @@ namespace Alyx.BrunchIt
 
         }
         void OnTriggerEnter2D(Collider2D other){
+            
             if (other.gameObject.tag=="mancha_1"){
                 for(int i=0;i<lives.Length;i++){
                     if (lives[i].sprite!=emptyHeart){
@@ -146,6 +154,16 @@ namespace Alyx.BrunchIt
             if (other.gameObject.tag=="mancha_1"){
                 inTrigger=false;
             }
+        }
+        void checkIfAlive(){
+            if(lives[2].sprite==emptyHeart){
+                alive=false;
+            }
+        }
+
+        IEnumerator waitTimeForGameOver(){
+            yield return new WaitForSeconds(.5f);
+            SceneManager.LoadScene("GameOverMenu");
         }
 
     }
