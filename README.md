@@ -1,6 +1,10 @@
 # Brunch-It
 En este proyecto se plantea hacer un juego con pixelart. Basándonos en nuestros conceptos de unidad llegamos a una serie de conceptos asociados a esta: amistad, lealtad, unión, pertenencia, comodidad, descanso, un buen equipo. Así fue como nació la idea de un desayuno ideal y de cómo una lechita emprenderá su camino para rescatar a sus amigos con el poder de la amistad.
 
+
+![Portada_menu (1)](https://user-images.githubusercontent.com/74560600/169165701-7b1c3602-d2fb-43c4-a9ff-160c5d3a00c4.png)
+
+
 Existen difernetes personajes en esta travesía:
 - Lechita (nuestro protagonista)
 - Sr. Waffle
