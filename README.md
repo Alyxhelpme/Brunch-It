@@ -9,7 +9,6 @@ Existen difernetes personajes en esta travesía:
 - Lechita (nuestro protagonista)
 - Sr. Waffle
 - Tocinetto
-- Duraznito
 
 _"Los amigos del desayuno perfecto se encontraban listos y preparados para pasar al plato de conferencias, cuando de repente, todo empezó a salir mal, nadie pudo ver nada y los amigos fueron separados, quedando solo lechita al pie del plato de conferencias.
 Así fue como la lechita emprendió la búsqueda para encontrar a sus amigos del desayuno perfecto."_
